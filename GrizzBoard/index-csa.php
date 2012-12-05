@@ -18,17 +18,36 @@
 <?php include "csa_posting_guidelines.php";?>
 </div>
 <div class="right-wrapper">
-  <div class="small-link"></div>
-  <div class="small-link"></div>
-  <div class="small-link"></div>
-  <div class="small-link"></div>
+  <div class="small-link">
+    <div class="small-icon"></div>
+  </div>
+  <div class="small-link">
+    <div class="small-icon"></div>
+  </div>
+  <div class="small-link">
+    <div class="small-icon"></div>
+  </div>
+  <div class="small-link">
+    <div class="small-icon"></div>
+  </div>
 </div>
 <div class="right-wrapper2">
-  <div class="small-link"></div>
-  <div class="small-link"></div>
-  <div class="small-link"></div>
-  <div class="small-link"></div>
+  <div class="small-link">
+    <div class="small-icon"></div>
+  </div>
+  <div class="small-link">
+    <div class="small-icon"></div>
+  </div>
+  <div class="small-link">
+    <div class="small-icon"></div>
+  </div>
+  <div class="small-link">
+    <div class="small-icon"></div>
+  </div>
 </div>
+</div>
+<div class="footer-wrapper">
+  <?php include "footer.php";?>
 </div>
 </body>
 </html>
