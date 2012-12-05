@@ -30,26 +30,12 @@
       <div class="small-icon"><img src="images/pin-icon.png" width="125" height="125" /></div>
     </div>
     </a>
-    <div class="small-link">
-      <div class="small-icon"></div>
-      View Postings </div>
+    <div class="small-link"><a href="index.php?page=view-postings.php">
+      <div class="small-icon"><img src="images/postings-icon.png" width="128" height="128" /></div>
+      </a> </div>
     <div class="small-link">
       <div class="small-icon"></div>
       Campus Map </div>
-    <div class="small-link">
-      <div class="small-icon"></div>
-    </div>
-  </div>
-  <div class="right-wrapper2">
-    <div class="small-link">
-      <div class="small-icon"></div>
-    </div>
-    <div class="small-link">
-      <div class="small-icon"></div>
-    </div>
-    <div class="small-link">
-      <div class="small-icon"></div>
-    </div>
     <div class="small-link">
       <div class="small-icon"></div>
     </div>
