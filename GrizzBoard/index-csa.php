@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Grizzboard - Ver .01</title>
+<title>Grizzboard - Ver .1</title>
 <link href="css/main.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -14,7 +14,21 @@
   <div class="header"> </div>
 </div>
 <div class="main-wrapper">
-  <div class="content-wrapper">a </div>
+<div class="content-wrapper">
+<?php include "csa_posting_guidelines.php";?>
+</div>
+<div class="right-wrapper">
+  <div class="small-link"></div>
+  <div class="small-link"></div>
+  <div class="small-link"></div>
+  <div class="small-link"></div>
+</div>
+<div class="right-wrapper2">
+  <div class="small-link"></div>
+  <div class="small-link"></div>
+  <div class="small-link"></div>
+  <div class="small-link"></div>
+</div>
 </div>
 </body>
 </html>
