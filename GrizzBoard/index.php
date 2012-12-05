@@ -2,19 +2,61 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Grizzboard - Ver .01</title>
+<title>Grizzboard - Ver .1</title>
 <link href="css/main.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 <div class="top-bar">
-  <div class="login">Login</div>
+  <div class="login"><b><a href="index.php?page=sign-in.php">Login</a></b></div>
 </div>
 <div class="header-wrapper">
-  <div class="header"> </div>
+  <div class="header"><a href="index.php"><img src="images/logo.png" width="411" height="54" /></a> </div>
 </div>
 <div class="main-wrapper">
-  <div class="content-wrapper">a </div>
+  <div class="content-wrapper">
+    <?php
+	$page = $_GET['page'];	
+	if (!empty($page)) {
+		include($page);
+	} 	
+	else {
+		include('main.php');
+	}
+?>
+  </div>
+  <div class="right-wrapper">
+    <div class="small-link"> <a href="index.php?page=input-form.php">
+      <div class="small-icon"><img src="images/pin-icon.png" width="125" height="125" /></div>
+    </div>
+    </a>
+    <div class="small-link">
+      <div class="small-icon"></div>
+      View Postings </div>
+    <div class="small-link">
+      <div class="small-icon"></div>
+      Campus Map </div>
+    <div class="small-link">
+      <div class="small-icon"></div>
+    </div>
+  </div>
+  <div class="right-wrapper2">
+    <div class="small-link">
+      <div class="small-icon"></div>
+    </div>
+    <div class="small-link">
+      <div class="small-icon"></div>
+    </div>
+    <div class="small-link">
+      <div class="small-icon"></div>
+    </div>
+    <div class="small-link">
+      <div class="small-icon"></div>
+    </div>
+  </div>
+</div>
+<div class="footer-wrapper">
+  <?php include "footer.php";?>
 </div>
 </body>
 </html>
