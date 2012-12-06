@@ -1,3 +1,5 @@
+<html>
+<body>
 <?php 
 include "mysql-connector.php";
 
@@ -38,3 +40,6 @@ $f5=mysql_result($result,$i,"content");
 $i++;
 }
 ?>
+</table>
+</body>
+</html>
