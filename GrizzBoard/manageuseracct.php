@@ -22,12 +22,12 @@ else
     {
     // display form
 ?>
-    [Register]<br><br>
-    Register below by entering your information and clicking register...<br>
+    [Manage User Account]<br><br>
+    Edit user account by entering your information and clicking Change...<br>
     Or <a href="../GrizzBoard/index.php?page=sign-in.php">login as an existing user</a>.<br><br><br>
 
-    <form action="../GrizzBoard/index.php?page=register.php" method="post">
-        <input type="hidden" name="action" value="login">
+    <form action="../GrizzBoard/index.php?page=manageuseracct.php" method="post">
+        <input type="hidden" name="action" value="change">
     <table>
         <tr><td align="right" width="125">Username:</td><td><input type="text" name="username"></td></tr>
         <tr><td align="right">Password:</td><td><input type="password" name="password"></td></tr>
@@ -36,7 +36,7 @@ else
         <tr><td align="right">Last Name:</td><td><input type="text" name="lastname"></td></tr>
         <tr><td align="right">Phone Number:</td><td><input type="text" name="phonenbr"></td></tr>
         <tr><td align="right">&nbsp;</td><td>&nbsp;</td></tr>
-        <tr><td>&nbsp;</td><td><input type="submit" name="action" value="Register">&nbsp;<input type="reset" name="reset" value="Clear"></td></tr>
+        <tr><td>&nbsp;</td><td><input type="submit" name="action" value="Change">&nbsp;<input type="reset" name="reset" value="Clear"></td></tr>
     </table>
     </form>
     <br><br>
