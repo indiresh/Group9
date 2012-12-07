@@ -4,7 +4,7 @@ if (isset($_POST["action"]) and $_POST["action"] == "Register" )
     // process form
     echo "You have been registered as " . $_POST['username'] ."<br><br>";
 ?>
-    <form action="../GrizzBoard/index.php?page=sign-in.php" method="post">
+    <form action="../index.php?page=sign-in.php" method="post">
     <table>
         <tr><td align="right">Username:</td><td><?php echo $_POST['username'];?></td></tr>
         <tr><td align="right">Password:</td><td><?php echo $_POST['password'];?></td></tr>
@@ -24,9 +24,9 @@ else
 ?>
     [Register]<br><br>
     Register below by entering your information and clicking register...<br>
-    Or <a href="../GrizzBoard/index.php?page=sign-in.php">login as an existing user</a>.<br><br><br>
+    Or <a href="../index.php?page=sign-in.php">login as an existing user</a>.<br><br><br>
 
-    <form action="../GrizzBoard/index.php?page=register.php" method="post">
+    <form action="../index.php?page=register.php" method="post">
         <input type="hidden" name="action" value="login">
     <table>
         <tr><td align="right" width="125">Username:</td><td><input type="text" name="username"></td></tr>

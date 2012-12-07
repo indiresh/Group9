@@ -11,9 +11,9 @@ else
 ?>
     [Reset Password]<br><br>
     Request a password reset below by completing the required fields and clicking request password reset...<br>
-    Or <a href="../GrizzBoard/index.php?page=sign-in.php">login with an existing user account</a>.<br><br><br>
+    Or <a href="../index.php?page=sign-in.php">login with an existing user account</a>.<br><br><br>
 
-    <form action="../GrizzBoard/index.php?page=resetpw.php" method="post">
+    <form action="../index.php?page=resetpw.php" method="post">
         <input type="hidden" name="action" value="rqstpwreset">
     <table>
         <tr><td align="right" width="125">Username:</td><td><input type="text" name="username"></td></tr>
